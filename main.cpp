@@ -3,9 +3,8 @@
 using namespace std;
 int main(){
   char c;
-  cout << "inserisci un carattere";
   cin >> c;
-  if (carattere(c)) {
+  if (carattere(c) == true) {
       cout << c;
   }
   else {
